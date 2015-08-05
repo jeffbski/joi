@@ -4,6 +4,9 @@
   "version": "6.9.0",
   "repository": "git://github.com/hapijs/joi",
   "main": "lib/index.js",
+  "browser": {
+    "crypto": false
+  },
   "keywords": [
     "hapi",
     "schema",
