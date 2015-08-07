@@ -5,9 +5,8 @@
   "repository": "git://github.com/hapijs/joi",
   "main": "lib/index.js",
   "browser": {
-    "./lib/binary.js": false,
-    "./lib/date.js": false,
-    "crypto": false
+    "moment": false,
+    "isemail": false
   },
   "keywords": [
     "hapi",
